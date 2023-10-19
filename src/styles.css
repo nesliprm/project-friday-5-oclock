@@ -1,14 +1,23 @@
+:root {
+  --dark-color: #222831;
+  --light-color: whitesmoke;
+  --accent-color: darkkhaki;
+}
+
 body {
   font-family: "Work Sans", sans-serif;
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(
+      rgba(34, 40, 49, 0.6),
+      rgba(34, 40, 49, 0.2)
+    ),
     url(../images/image03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: whitesmoke;
+  color: var(--light-color);
   text-align: center;
   padding: 150px;
 }
@@ -17,7 +26,7 @@ header h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 72px;
-  color: darkkhaki;
+  color: var(--accent-color);
 }
 
 header h2,
@@ -27,13 +36,28 @@ h3 {
 
 header a {
   text-decoration: none;
-  color: black;
-  background-color: whitesmoke;
+  color: var(--dark-color);
+  background-color: var(--light-color);
   padding: 10px 15px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 20px 80px;
 }
 
 .container {
-  max-width: 1200px;
-  display: block;
-  margin: 0 auto;
+  max-width: 100%;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
