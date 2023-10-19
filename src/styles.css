@@ -1,0 +1,18 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/image02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 72px;
+}
+
+.container {
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
