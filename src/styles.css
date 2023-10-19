@@ -27,11 +27,17 @@ header h1 {
   font-weight: 700;
   font-size: 72px;
   color: var(--accent-color);
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-header h2,
-h3 {
-  font-weight: 700;
+header h2 {
+  font-weight: 300;
+  margin-bottom: 80px;
+}
+
+header h3 {
+  font-weight: 300;
 }
 
 header a {
