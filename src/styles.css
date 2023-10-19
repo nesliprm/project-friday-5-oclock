@@ -59,17 +59,6 @@ header a:hover {
   color: var(--light-color);
 }
 
-.section-info {
-  background-color: var(--light-color);
-  padding: 80px 400px;
-  text-align: justify;
-}
-
-.section-cocktails {
-  background-color: var(--medium-color);
-  padding: 80px 400px;
-}
-
 section a {
   text-decoration: none;
   color: var(--dark-color);
@@ -85,7 +74,14 @@ ul {
 }
 
 footer {
-  background-color: var(--dark-color);
+  background-image: linear-gradient(
+      rgba(34, 40, 49, 0.8),
+      rgba(34, 40, 49, 0.8)
+    ),
+    url(../images/image05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: var(--light-color);
   padding: 20px 200px;
 }
@@ -131,4 +127,21 @@ footer a:hover {
 .section-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-info {
+  background-color: var(--light-color);
+  padding: 80px 400px;
+  text-align: justify;
+}
+
+.section-cocktails {
+  background-color: var(--medium-color);
+  padding: 80px 400px;
+}
+
+.section-youtubers {
+  background-color: var(--light-color);
+  padding: 80px 400px;
+  text-align: justify;
 }
