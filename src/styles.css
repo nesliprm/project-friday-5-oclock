@@ -75,7 +75,7 @@ ul {
 footer {
   background-color: var(--dark-color);
   color: var(--light-color);
-  padding: 20px 80px;
+  padding: 20px 200px;
 }
 
 footer a {
@@ -93,5 +93,5 @@ footer a:hover {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
