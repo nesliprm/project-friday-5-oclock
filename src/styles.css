@@ -1,7 +1,7 @@
 :root {
   --dark-color: #222831;
   --light-color: whitesmoke;
-  --medium-color: lightgrey;
+  --medium-color: rgb(232, 232, 232);
   --accent-color: darkkhaki;
 }
 
@@ -59,10 +59,15 @@ header a:hover {
   color: var(--light-color);
 }
 
-section {
+.section-info {
   background-color: var(--light-color);
-  padding: 100px 400px;
+  padding: 80px 400px;
   text-align: justify;
+}
+
+.section-cocktails {
+  background-color: var(--medium-color);
+  padding: 80px 400px;
 }
 
 section a {
@@ -110,4 +115,20 @@ footer a:hover {
 .icons {
   margin-top: 40px;
   font-size: 48px;
+}
+
+.card {
+  max-width: 300px;
+  background-color: var(--light-color);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.card-image {
+  border-radius: 10px;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
