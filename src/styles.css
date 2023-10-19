@@ -20,7 +20,7 @@ header {
   background-size: cover;
   background-position: center;
   color: var(--light-color);
-  text-align: center;
+
   padding: 150px;
 }
 
@@ -59,14 +59,19 @@ header a:hover {
   color: var(--light-color);
 }
 
-section h3 {
-  text-align: center;
-}
-
 section {
   background-color: var(--light-color);
   padding: 100px 400px;
   text-align: justify;
+}
+
+section a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+section a:hover {
+  background-color: var(--accent-color);
 }
 
 ul {
@@ -96,4 +101,8 @@ footer a:hover {
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
+}
+
+.text-center {
+  text-align: center;
 }
