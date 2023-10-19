@@ -64,10 +64,6 @@ section a {
   color: var(--dark-color);
 }
 
-section a:hover {
-  background-color: var(--accent-color);
-}
-
 ul {
   list-style: none;
   margin-left: -40px;
@@ -140,8 +136,58 @@ footer a:hover {
   padding: 80px 400px;
 }
 
+.section-cocktails a:hover {
+  background-color: var(--accent-color);
+}
+
+.section-info a:hover {
+  background-color: var(--accent-color);
+}
+
+.section-instagram a:hover {
+  filter: brightness(120%);
+}
+
+.section-youtubers a:hover {
+  background-color: var(--accent-color);
+}
+
 .section-youtubers {
   background-color: var(--light-color);
   padding: 80px 400px;
   text-align: justify;
+}
+
+.section-instagram {
+  background-color: var(--medium-color);
+  padding: 80px 400px;
+}
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.insta-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: -5px;
+  aspect-ratio: 1/1;
+}
+
+.youtube-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.youtube-video {
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.youtube-card {
+  text-align: center;
 }
