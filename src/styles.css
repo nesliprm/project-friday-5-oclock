@@ -16,11 +16,11 @@ header {
       rgba(34, 40, 49, 0.2)
     ),
     url(../images/image03.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: var(--light-color);
-
   padding: 150px;
 }
 
