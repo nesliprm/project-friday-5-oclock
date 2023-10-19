@@ -1,3 +1,7 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
     url(../images/image03.jpg);
@@ -6,11 +10,26 @@ header {
   background-position: center;
   color: whitesmoke;
   text-align: center;
-  padding: 100px;
+  padding: 150px;
 }
 
 header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   font-size: 72px;
+  color: darkkhaki;
+}
+
+header h2,
+h3 {
+  font-weight: 700;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  background-color: whitesmoke;
+  padding: 10px 15px;
 }
 
 .container {
