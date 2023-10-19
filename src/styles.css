@@ -29,6 +29,7 @@ header h1 {
   color: var(--accent-color);
   margin-top: 5px;
   margin-bottom: 5px;
+  text-shadow: 2px 2px 0px var(--light-color);
 }
 
 header h2 {
