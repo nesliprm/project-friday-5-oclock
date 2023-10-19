@@ -52,6 +52,21 @@ header a {
   border-radius: 10px;
 }
 
+header a:hover {
+  background-color: var(--accent-color);
+  color: var(--light-color);
+}
+
+section h3 {
+  text-align: center;
+}
+
+section {
+  background-color: var(--light-color);
+  padding: 100px 400px;
+  justify-content: center;
+}
+
 ul {
   list-style: none;
   margin-left: -40px;
