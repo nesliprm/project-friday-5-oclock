@@ -53,6 +53,15 @@ footer {
   padding: 20px 80px;
 }
 
+footer a {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 .container {
   max-width: 100%;
 }
