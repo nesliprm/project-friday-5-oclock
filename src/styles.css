@@ -103,11 +103,11 @@ table {
 
 th {
   border-bottom: solid 1px var(--medium-color);
-  padding: 5px 20px;
+  padding: 10px 20px;
 }
 
 td {
-  padding: 3px;
+  padding: 3px 10px;
 }
 
 .container {
