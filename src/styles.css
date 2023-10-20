@@ -137,6 +137,7 @@ td {
 }
 
 .icons {
+  margin-left: -20px;
   margin-top: 40px;
   font-size: 48px;
 }
