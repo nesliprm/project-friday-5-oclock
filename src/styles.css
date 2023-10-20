@@ -110,16 +110,15 @@ td {
   padding: 3px 10px;
 }
 
+.container {
+  max-width: 100%;
+}
 .scroll-up-link {
   text-decoration: none;
 }
 
 .scroll-up-link:hover {
   background-color: var(--accent-color);
-}
-
-.container {
-  max-width: 100%;
 }
 
 .footer-grid {
@@ -164,6 +163,8 @@ td {
   background-color: var(--light-color);
   padding: 80px 400px;
   text-align: justify;
+  display: block;
+  margin: 0 auto;
 }
 
 .section-cocktails {
@@ -238,4 +239,7 @@ td {
 
 .table-container {
   overflow-x: auto;
+}
+
+@media (max-width: 960px) {
 }
