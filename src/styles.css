@@ -231,3 +231,7 @@ td {
 .table-container {
   overflow-x: auto;
 }
+
+.scroll-up-link {
+  text-decoration: none;
+}
