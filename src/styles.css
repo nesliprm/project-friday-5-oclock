@@ -60,7 +60,7 @@ header a:hover {
 }
 
 section a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--dark-color);
 }
 
@@ -104,13 +104,19 @@ footer a:hover {
   text-align: center;
 }
 
+.text-light {
+  font-weight: 300;
+  color: grey;
+  margin-bottom: -10px;
+}
+
 .icons {
   margin-top: 40px;
   font-size: 48px;
 }
 
 .card {
-  max-width: 300px;
+  width: 300px;
   background-color: var(--light-color);
   padding: 20px;
   border-radius: 12px;
@@ -120,9 +126,11 @@ footer a:hover {
   border-radius: 10px;
 }
 
-.section-grid {
+.cocktail-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
 }
 
 .section-info {
@@ -137,10 +145,12 @@ footer a:hover {
 }
 
 .section-cocktails a:hover {
+  text-decoration: none;
   background-color: var(--accent-color);
 }
 
 .section-info a:hover {
+  text-decoration: none;
   background-color: var(--accent-color);
 }
 
@@ -149,6 +159,7 @@ footer a:hover {
 }
 
 .section-youtubers a:hover {
+  text-decoration: none;
   background-color: var(--accent-color);
 }
 
