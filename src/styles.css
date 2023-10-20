@@ -91,6 +91,25 @@ footer a:hover {
   background-color: var(--accent-color);
 }
 
+table {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  border: solid 1px var(--dark-color);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  border-bottom: solid 1px var(--medium-color);
+  padding: 5px 20px;
+}
+
+td {
+  padding: 3px;
+}
+
 .container {
   max-width: 100%;
 }
@@ -174,6 +193,12 @@ footer a:hover {
   padding: 80px 400px;
 }
 
+.section-table {
+  background-color: var(--light-color);
+  padding: 80px 400px;
+  overflow-x: auto;
+}
+
 .insta-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -201,4 +226,8 @@ footer a:hover {
 
 .youtube-card {
   text-align: center;
+}
+
+.table-container {
+  overflow-x: auto;
 }
