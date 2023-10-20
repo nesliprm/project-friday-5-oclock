@@ -59,7 +59,7 @@ header a:hover {
   color: var(--light-color);
 }
 
-section a {
+a {
   text-decoration: underline;
   color: var(--dark-color);
 }
@@ -108,6 +108,14 @@ th {
 
 td {
   padding: 3px 10px;
+}
+
+.scroll-up-link {
+  text-decoration: none;
+}
+
+.scroll-up-link:hover {
+  background-color: var(--accent-color);
 }
 
 .container {
@@ -230,8 +238,4 @@ td {
 
 .table-container {
   overflow-x: auto;
-}
-
-.scroll-up-link {
-  text-decoration: none;
 }
