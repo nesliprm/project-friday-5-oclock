@@ -20,6 +20,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  text-align: center;
   color: var(--light-color);
   padding: 150px;
 }
@@ -79,7 +80,7 @@ footer {
   background-size: cover;
   background-position: center;
   color: var(--light-color);
-  padding: 20px 200px;
+  padding: 20px 100px;
 }
 
 footer a {
@@ -110,9 +111,15 @@ td {
   padding: 3px 10px;
 }
 
+h2 {
+  margin-bottom: 40px;
+}
+
 .container {
   max-width: 100%;
+  margin: 0 auto;
 }
+
 .scroll-up-link {
   text-decoration: none;
 }
@@ -243,4 +250,79 @@ td {
 }
 
 @media (max-width: 960px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 12px;
+  }
+
+  .section-info {
+    padding: 20px 10px;
+  }
+
+  .section-cocktails {
+    padding: 20px 10px;
+  }
+
+  .section-youtubers {
+    padding: 20px 10px;
+  }
+
+  .section-instagram {
+    padding: 20px 10px;
+  }
+
+  .section-table {
+    padding: 20px 10px;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .cocktail-grid {
+    display: block;
+  }
+
+  .insta-grid {
+    grid-gap: 5px;
+  }
+
+  .youtube-grid {
+    display: block;
+  }
+
+  .youtube-card {
+    width: 75%;
+    margin: 10px auto;
+  }
+
+  .card {
+    margin: 10px auto;
+  }
+
+  .footer-grid {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
